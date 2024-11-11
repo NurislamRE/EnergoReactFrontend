@@ -1,0 +1,12 @@
+
+.up {
+    background-image: url(/icons/up.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.down {
+    background-image: url(/icons/down.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

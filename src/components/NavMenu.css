@@ -1,0 +1,96 @@
+﻿.navbar {
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.active {
+  /* background: #78a86d; */
+  background: #3F51B5;
+  border-radius: 5px;
+}
+
+ul {
+  width: 90% !important;
+}
+
+ul li a,
+ul li a:after,
+ul li a:before {
+  transition: all 0.5s;
+}
+
+ul li a {
+  position: relative;
+  z-index: 1;
+  color: white !important;
+}
+
+/* ul li a:hover {
+  color: #8adb77;
+} */
+ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  /* background: #78a86d; */
+  background: #3F51B5;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.navbar-dark {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: #ffffff !important;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.logout {
+  width: auto;
+  color: white !important;
+  background-color: #0288d1 !important;
+}
+
+.logout:hover {
+  background-color: #01579b !important;
+}

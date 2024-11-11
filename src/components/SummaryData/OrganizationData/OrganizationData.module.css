@@ -1,0 +1,19 @@
+.up {
+    background-image: url(/icons/up2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.down {
+    background-image: url(/icons/down2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tr-total {
+    color: #fff;
+    background-color: lightseagreen !important;
+    font-weight: bolder;
+    border: 1px solid #38678f;
+    transition: all 0.2s;
+}
